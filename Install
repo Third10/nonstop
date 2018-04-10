@@ -500,7 +500,7 @@ END
 
 fi
 
-	wget -O /usr/local/bin/menu "https://raw.githubusercontent.com/banklovelo01/nonstop/master/menu"
+	wget -O /usr/local/bin/menu "https://raw.githubusercontent.com/Third10/nonstop/master/menu"
 	chmod +x /usr/local/bin/menu
 	apt-get -y install vnstat
 	cd /etc/openvpn/easy-rsa/
@@ -928,7 +928,7 @@ fi
 	0)
 
 rm /usr/local/bin/install
-wget -O /usr/local/bin/install "https://raw.githubusercontent.com/banklovelo01/nonstop/master/Install.sh" && chmod +x /usr/local/bin/install && install
+wget -O /usr/local/bin/install "https://raw.githubusercontent.com/banklovelo01/Third10/master/Install.sh" && chmod +x /usr/local/bin/install && install
 
 	;;
 
